@@ -95,6 +95,8 @@ HTTP 200; user_id=ngan-local-check; history_length=0; cost_usd=0.00002445
 
 - `screenshots/dashboard.png` — trang quản lý service trên platform
 - `screenshots/health.png` — kết quả gọi `/health` từ trình duyệt hoặc curl
+- `screenshots/build-log.png` — GitHub Actions build Docker image thành công
+- `screenshots/console-log.png` — Render application log ghi nhận `/health` trả `200 OK`
 
 ---
 
