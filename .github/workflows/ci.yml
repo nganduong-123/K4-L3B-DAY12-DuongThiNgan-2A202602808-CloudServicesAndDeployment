@@ -24,9 +24,6 @@ jobs:
       - name: Install dependencies
         run: python -m pip install -r requirements.txt
       - name: Run offline checkpoints
-        env:
-          AGENT_API_KEY: ci-only-test-key
-          REDIS_URL: fake://
         run: >-
           pytest tests/test_cp1.py tests/test_cp2.py tests/test_cp3.py
           tests/test_cp4.py -m "not docker" -q
